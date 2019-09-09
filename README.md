@@ -69,23 +69,23 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/tr
 
 ### Demo Project
 
-# Sign Up
+#### Sign Up
 ![sign up](https://user-images.githubusercontent.com/44598352/64529375-f1342f80-d334-11e9-8da6-958840128278.png)
 
-# Sign In
+#### Sign In
 ![sign in](https://user-images.githubusercontent.com/44598352/64529371-f0030280-d334-11e9-9907-8fa5f1d3017f.png)
 
-# Home
+#### Home
 ![home2](https://user-images.githubusercontent.com/44598352/64535926-5b070600-d342-11e9-8b05-23580dd56799.png)
 
-# Add Product
+#### Add Product
 ![addproduct](https://user-images.githubusercontent.com/44598352/64535891-4aef2680-d342-11e9-98ca-1630fbafc965.gif)
 
-# Detail Product
+#### Detail Product
 ![detail products2](https://user-images.githubusercontent.com/44598352/64536069-a15c6500-d342-11e9-84c1-6e9cda0d8c6a.png)
 
-# Edit Product
+#### Edit Product
 ![edit product](https://user-images.githubusercontent.com/44598352/64536366-2e9fb980-d343-11e9-8a67-d3bfe4e7ccef.gif)
 
-# Delete Product
+#### Delete Product
 ![delete product](https://user-images.githubusercontent.com/44598352/64536685-b71e5a00-d343-11e9-85f4-8b4afecdb4ee.gif)
