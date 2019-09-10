@@ -3,7 +3,7 @@ import React, {Fragment} from 'react'
 import {connect} from 'react-redux'
 
 import {Modal, Row, Col, Form, Button} from 'react-bootstrap'
-import {getProductById} from '../publics/actions/products'
+// import {getProductById} from '../publics/actions/products'
 import {editProduct} from '../publics/actions/products'
 import {getCategory} from '../publics/actions/category'
 
@@ -61,19 +61,10 @@ class FormEditProduct extends React.Component{
         })
     }
 
-    getProductData = async () => {
-        await this.props.dispatch(getProductById(this.props.productid))
-        this.setState(
-          {productData: this.props.products.productsList.find((products) => {
-            return products.productid === Number(this.props.productid)
-          })},
-        )
-      }
 
     componentDidMount = async () => {
         await this.props.dispatch(getCategory())
         this.setState ({categoryList: this.props.category.categoryList})
-        this.getProductData()
     }
 
     render(){

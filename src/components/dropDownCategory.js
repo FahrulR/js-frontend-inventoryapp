@@ -11,9 +11,8 @@ class DropDownCategory extends React.Component{
       history: props.history 
     }
   }
-  goToCategoryPath = (categoryName) => {
-    console.log(categoryName)
-    this.state.history.push(`/home/category/${categoryName}/`)
+  goToCategoryPath = () => {
+    this.state.history.push(`/category`)
   }
 
   componentDidMount = async () => {
@@ -33,7 +32,7 @@ class DropDownCategory extends React.Component{
         <Dropdown.Menu>
           {categoryList.length > 0 ? 
             categoryList.map((category) => {
-              return <Dropdown.Item key={category.name} onClick={()=>{this.goToCategoryPath(category.name)}}>{category.name}</Dropdown.Item>
+              return <Dropdown.Item key={category.name} onClick={()=>{this.goToCategoryPath()}}>{category.name}</Dropdown.Item>
             }):
             <Dropdown.Item href="#">Loading...</Dropdown.Item>}
         </Dropdown.Menu>
