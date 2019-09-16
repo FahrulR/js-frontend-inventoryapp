@@ -1,7 +1,7 @@
 <h1 align='center'>Inventory Application with React Js</h1>
 
 <p align='center'>
-  <a href='https://facebook.github.io/react-native/'>
+  <a href='https://reactjs.org/'>
   <img width="500" src='https://reactjs.org/logo-og.png' />
   </a>
 </p>
